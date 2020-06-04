@@ -1,7 +1,7 @@
 //Get Metodu
 import java.util.*;
 
-public class test {
+public class GetMetodu {
    public static void main(String[] args) {
       
     ArrayList<String> renkler = new ArrayList<String>(5);
@@ -11,9 +11,9 @@ public class test {
     renkler.add("Siyah");
     renkler.add("Kırmızı");
     renkler.add("Turkuaz");
-	  renkler.add("Sarı");
+    renkler.add("Sarı");
 	    
-	// ArrayList'teki renkleri yazdırıyorum
+    // ArrayList'teki renkleri yazdırıyorum
     for (int i = 0; i < 5; i++)
       {
          System.out.println(renkler.get(i).toString());
